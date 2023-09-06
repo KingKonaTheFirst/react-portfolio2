@@ -2,7 +2,7 @@ import React from 'react';
 
 
 const Header = () => {
-  return <div className='bg-teal-500'>Header</div>;
+  return <div id="home" className='bg-teal-500'>Header</div>;
 };
 
 export default Header;
