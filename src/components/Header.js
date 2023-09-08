@@ -2,7 +2,7 @@ import React from "react";
 import Logo from '../assets/KonaDeroin.svg'
 const Header = () => {
   return (
-    <header id="home" className="py-8">
+    <header className="py-8">
       <div className="container mx-auto">
         <div className="flex justify-between items-center ">
           {/* logo */}
