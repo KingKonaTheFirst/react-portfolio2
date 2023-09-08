@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "../assets/avatar.svg";
-import { FaGithub, FaYoutube, FaDribble } from "react-icons/fa";
+import { FaGithub, FaDribbble } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
@@ -29,11 +29,27 @@ const Banner = () => {
               wrapper="span"
               repeat={Infinity}
             />
+          </div>
+          <p className="mb-8 max-w-lg mx-auto lg:mx-0">
+            Recently graduated developer with a passion for cars and coding.
+            When I'm not diving into tech, I'm spending time with my cherished
+            cat or under the hood of an automobile.
+          </p>
+          <div className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0">
+            <button className="btn btn-lg">Contact Me</button>
+            <a href="#" className="text-gradient btn-link">
+              My Portfolio
+            </a>
+          </div>
+          <div className="flex text-[20px] gap-x-6 max-w-max mx-auto">
+            <a href="#">
+              <FaGithub />
+            </a>
+            <a href="#">
+              <FaDribbble />
+            </a>
             
           </div>
-          <p>
-          Recently graduated developer with a passion for cars and coding. When I'm not diving into tech, I'm spending time with my cherished cat or under the hood of an automobile.
-            </p>
         </div>
         <div>
           <img src={Image} alt="Portfolio Picture" />
