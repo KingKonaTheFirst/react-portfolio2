@@ -10,7 +10,7 @@ const Banner = () => {
     <section id="home" className="section">
       <div className="container mx-auto">
         <div>
-          <h1>
+          <h1 className="text-[55px] font-bold leading-[0.8] lg:text-11">
             KONA<span> DEROIN</span>
           </h1>
           <div className="mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1]">
@@ -31,9 +31,8 @@ const Banner = () => {
             />
           </div>
           <p className="mb-8 max-w-lg mx-auto lg:mx-0">
-            Recently graduated developer with a passion for cars and coding.
-            When I'm not diving into tech, I'm spending time with my cherished
-            cat or under the hood of an automobile.
+          Welcome to my portfolio! Dive into a curated collection of my finest work and witness the passion and precision behind each creation.
+        
           </p>
           <div className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0">
             <button className="btn btn-lg">Contact Me</button>
