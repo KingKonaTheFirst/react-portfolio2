@@ -11,7 +11,18 @@ import { fadeIn } from "../variants";
 const services = [
   {
     name: "UI/UX",
-    description: "lorem ipsum ",
+    description: "Upgrade your website's appeal and functionality with my professional UI/UX design services. Perfect for businesses seeking improved user engagement. ",
+    link: "learn more",
+  },
+  {
+    name: "Search Engine Optimization",
+    description:
+      "Improve your online visibility and search rankings with my effective SEO services, including keyword optimization and link building, suitable for all business sizes.",
+    link: "learn more",
+  },
+  {
+    name: "Digital Marketing",
+    description: "Elevate your online impact with our comprehensive digital marketing services. Ideal for businesses seeking enhanced engagement and growth.",
     link: "learn more",
   },
 ];
@@ -36,12 +47,13 @@ const Services = () => {
             <button className="btn btn-sm">See my work</button>
           </motion.div>
           <div>
-            <motion.div 
-               variants={fadeIn("left", 0.3)}
-               initial="hidden"
-               whileInView="show" // Ensure this works with your setup
-               viewport={{ once: false, amount: 0.3 }}
-            className="flex-1">
+            <motion.div
+              variants={fadeIn("left", 0.3)}
+              initial="hidden"
+              whileInView="show" // Ensure this works with your setup
+              viewport={{ once: false, amount: 0.3 }}
+              className="flex-1"
+            >
               {/* service list */}
               {services.map((services, index) => {
                 const { name, description, link } = services;
