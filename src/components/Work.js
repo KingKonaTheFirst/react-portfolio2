@@ -20,16 +20,13 @@ const Work = () => {
                 Work.
               </h2>
               <p className="max-w-sm mb-16">
-                I recently had the opportunity to develop a full-stack website
-                for Osprey BP, a dynamic project that showcased my comprehensive
-                web development skills. This endeavor encompassed everything
-                from the ground-up construction of the website to integrating
-                advanced SEO strategies. My role extended beyond the initial
-                development, as I continued to provide ongoing support and
-                updates, ensuring the site remained optimized, secure, and ahead
-                in the ever-evolving digital landscape. This project was a
-                testament to my ability to deliver a complete and robust online
-                solution, tailored to meet the specific needs of Osprey BP.
+                I recently developed a full-stack website for Osprey BP, a
+                project that highlighted my extensive web development skills.
+                The work included building the website from scratch and
+                implementing advanced SEO strategies. Beyond the initial build,
+                I provided continuous support and updates to keep the site
+                optimized and secure, demonstrating my commitment to delivering
+                a comprehensive, tailored online solution for Osprey BP.
               </p>
               <button className="btn btn-sm">View all Projects</button>
             </div>
