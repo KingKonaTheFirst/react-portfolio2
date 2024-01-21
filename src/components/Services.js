@@ -11,7 +11,8 @@ import { fadeIn } from "../variants";
 const services = [
   {
     name: "UI/UX",
-    description: "Upgrade your website's appeal and functionality with my professional UI/UX design services. Perfect for businesses seeking improved user engagement. ",
+    description:
+      "Upgrade your website's appeal and functionality with my professional UI/UX design services. Perfect for businesses seeking improved user engagement. ",
     link: "learn more",
   },
   {
@@ -22,7 +23,19 @@ const services = [
   },
   {
     name: "Digital Marketing",
-    description: "Elevate your online impact with our comprehensive digital marketing services. Ideal for businesses seeking enhanced engagement and growth.",
+    description:
+      "Elevate your online impact with our comprehensive digital marketing services. Ideal for businesses seeking enhanced engagement and growth.",
+    link: "learn more",
+  },
+  {
+    name: "Backend Development",
+    description:
+      "Elevate your online impact with our comprehensive digital marketing services. Ideal for businesses seeking enhanced engagement and growth.",
+    link: "learn more",
+  },{
+    name: "Api implimentation",
+    description:
+      "Elevate your online impact with our comprehensive digital marketing services. Ideal for businesses seeking enhanced engagement and growth.",
     link: "learn more",
   },
 ];
