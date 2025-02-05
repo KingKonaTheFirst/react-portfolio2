@@ -64,7 +64,17 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0"
             >
-              <button className="btn btn-lg">Contact Me</button>
+              <button
+                onClick={() => {
+                  const contactSection = document.getElementById("contact");
+                  if (contactSection) {
+                    contactSection.scrollIntoView({ behavior: "smooth" });
+                  }
+                }}
+                className="btn btn-lg"
+              >
+                Contact Me
+              </button>
               <a href="#" className="text-gradient btn-link">
                 My Portfolio
               </a>
@@ -77,10 +87,13 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0 "
             >
-              <a href="https://github.com/KingKonaTheFirst"target="_blank">
+              <a href="https://github.com/KingKonaTheFirst" target="_blank">
                 <FaGithub />
               </a>
-              <a href="https://www.linkedin.com/in/kona-deroin-27243b284/" target="_blank">
+              <a
+                href="https://www.linkedin.com/in/kona-deroin-27243b284/"
+                target="_blank"
+              >
                 <FaDribbble />
               </a>
             </motion.div>
@@ -90,7 +103,6 @@ const Banner = () => {
             variants={fadeIn("down", 0.5)}
             initial="hidden"
             whileInView={"show"}
-            
             className="hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px] mx-auto"
           >
             <img src={Image} alt="Portfolio Picture" />
